@@ -10,13 +10,13 @@ class Billete
 }
 
 var imagenes = [];
-imagenes[100]="IMG/100_USD.jpg";
-imagenes[50]="IMG/50_USD.jpg";
-imagenes[20]="IMG/20_USD.jpg";
-imagenes[10]="IMG/10_USD.jpg";
-imagenes[5]="IMG/5_USD.jpg";
-imagenes[2]="IMG/2_USD.jpg";
-imagenes[1]="IMG/1_USD.jpg";
+imagenes[100]="assets/100_USD.jpg";
+imagenes[50]="assets/50_USD.jpg";
+imagenes[20]="assets/20_USD.jpg";
+imagenes[10]="assets/10_USD.jpg";
+imagenes[5]="assets/5_USD.jpg";
+imagenes[2]="assets/2_USD.jpg";
+imagenes[1]="assets/1_USD.jpg";
 
 var caja = [];
 var entregado = [];

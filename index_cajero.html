@@ -3,20 +3,18 @@
 <head>
     <link rel="stylesheet" href="css/cajero_style.css">
 <meta charset="utf-8">
-<title>Cajero automatico - BV</title>
+<title>BV Bank</title>
 </head>
 <body>
-<h2>Retira tu dinero</h2>
+<h2 id="main_title">BV Bank</h2>
 <p>
 <img id="cajero_img" src="assets/cajero.gif" />
 </p>
-<p>
-<input type="number" id="dinero" />
-<input type="button" class="atm_button" value="Extraer" id="extraer" />
+<input type="number" id="dinero" placeholder="Introduce la cantidad a retirar" />
+<input type="button" class="atm_button" value="Extraer Dinero" id="extraer" />
 <input type="button" class="atm_button" value="Consultar Saldo" id="cantidad" />
 <input type="button" class="atm_button" value="Finalizar transacción" id="reload" onclick="clean()" />
 <!--   -->
-
 </p>
 <p id="resultado"></p>
 <script src="cajero_script.js">
