@@ -37,3 +37,15 @@ body {
 .atm_button:hover{
     background-color: aqua;
 }
+
+.footer {  
+    position: fixed;  
+    left: 0px;  
+    bottom: 0px;  
+    right: 0px;   
+    width: 100%;  
+    background-color: gray;  
+    color: white;  
+    font-size: 15px;
+    text-align: center;  
+    }  
