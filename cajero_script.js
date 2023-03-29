@@ -89,7 +89,10 @@ function entregarDinero()
     {
       if(e.cantidad > 0)
       {
-        resultado.innerHTML += "<img src=" + e.imagen.src + " />" + "<br />" + "<strong />" + e.cantidad + " billete(s) de $" + e.valor + "<br />";
+        // resultado.innerHTML += "<img src=" + e.imagen.src + " />" + "<strong />" + e.cantidad + " billete(s) de $" + e.valor + "<br />";
+        resultado.innerHTML += "<img src=" + e.imagen.src + " />" + '<div class="valor_entregado">' + e.cantidad + " billete(s) de $" + e.valor + '</div>';
+        // resultado.innerHTML = '';
+
         //Eso es una concatenación: aquí se pone += para indicar que lo primero debe volver a ser sumado con lo que sigue de código, también
         //se puede escribir en este caso resultado.innerHTML = y otra vez escribir resultado.innerHTML sumado a todo el resto de código
         //Esto es solo bueno hacerlo cuando es +=, porque también se puede con -= pero no es muy legible y puede enredar el código, por

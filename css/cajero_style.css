@@ -42,6 +42,39 @@ input[type=number]::placeholder {
     background-color: aqua;
 }
 
+#resultado{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -100px;
+    position: relative;
+}
+
+.solicitud{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.valor_entregado{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
 .footer {  
     position: fixed;  
     left: 0px;  
