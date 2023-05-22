@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/cajero_style.css">
+<meta charset="utf-8">
+<title>BV Bank</title>
+</head>
+<body>
+<h2 id="main_title">🏛️ BV Bank</h2>
+<p>
+<img id="cajero_img" src="assets/cajero.gif" />
+</p>
+<input type="number" id="dinero" placeholder="Introduce la cantidad a retirar" />
+<input type="button" class="atm_button" value="Extraer Dinero" id="extraer" />
+<input type="button" class="atm_button" value="Consultar Saldo" id="cantidad" />
+<input type="button" class="atm_button" value="Finalizar transacción" id="reload" onclick="clean()" />
+<!--   -->
+<p>
+
+<div class="footer">🏛️ BV Bank Company resguarda tu dinero y aumenta tus sueños 💸</div>
+
+</p>
+<p id="resultado"></p>
+<script src="cajero_script.js">
+    </script>
+</html>
